@@ -17,7 +17,6 @@ end)
 
 
 function lahetaviesti()
-    print("Lähetetään viestiä...")
     local embedi = {
         {
             ["color"] = Config.Vari,
@@ -29,7 +28,6 @@ end
 
 
 function paivita()
-    print("Päivitetään...")
     local poliiseja, ensihoitajia, mekaanikkoja = 0, 0, 0
     local maximipelaajat = GetConvarInt("sv_maxclients", 32)
     local pelaajat = #GetPlayers()
