@@ -38,7 +38,7 @@ function paivita()
             poliiseja = poliiseja + 1
         elseif xPlayer.job.name == "ambulance" then
             ensihoitajia = ensihoitajia + 1
-        elseif xPlayer.job.name == "mekaanikkoja" then
+        elseif xPlayer.job.name == "mechanic" then
             mekaanikkoja = mekaanikkoja + 1
         end
     end
